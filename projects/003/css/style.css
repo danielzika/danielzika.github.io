@@ -1,0 +1,19 @@
+.logo{
+width: 150px;
+}
+
+h1,
+h3{
+  font-family: 'Poppins', sans-serif;
+  color: #CC561F;
+  margin: 30px;
+  text-transform: capitalize;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+}
