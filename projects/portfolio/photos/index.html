@@ -4,94 +4,211 @@
 <html lang="en">
 
 <head>
-<title>Daniel Zika Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description"
-content="Layout and grid assignment">
-<!-- Fonts -->
+    <title>Daniel Zika Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daniel Zika Portfolio">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
 
 
 
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-<link rel="stylesheet" href="../assets/css/style.css">
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
-
-
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e6cbacb7;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/"
-                    alt="Daniel Zika Logo" class="logo">
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link active" aria-current="page" href="#">Videos</a>
-              <a class="nav-link active" aria-current="page" href="#">Photos</a>
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-              <a class="nav-link active" aria-current="page" href="#">Contact</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color white-space;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/img/daniel_zika_logo.png" alt="Daniel Zika Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Videos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Short Films</a></li>
+                                <li><a class="dropdown-item" href="#">Social Media</a></li>
+                                <li><a class="dropdown-item" href="#">Motion Graphics</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Photos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Still Photography</a></li>
+                                <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-        </div>
-      </nav>
-
+            </div>
+        </nav>
+    </header>
 
 
     <div class="container">
-        <h1>Still Photography</h1>
         <div class="row align-items-center">
-            <div class="col-sm-7">
-                <img src="../assets/img/new_orleans.jpg" class="img-fluid">
-            </div>
             <div class="col-sm-5">
-                <img src="../assets/img/paddle_board.jpg" class="img-fluid">
+                <h1>Still Photography</h1 class="text-fluid">
+                <br>
+                <p>As much as I've found myself more and more drawn to moving images and combining them with sound, the still photograph is the basis for all of this. Structure, composition, focus, lighting and so many more features that are essential to moving photography are the structures of still photos. Thus taking visually stunning still images remains a goal of mine. Here are many of my favorites.</p class="text-fluid">
+            </div>
+            <div class="col-sm-7">
+                <img src="../assets/img/photos-page-04.jpg" class="img-fluid">
             </div>
         </div>
 
         <div class="row align-items-canter">
             <div class="col-lg-12">
-                <img src="../assets/img/st_john.jpg" class="img-fluid">
+                <img src="../assets/img/photos-page-29.jpg" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-sm-7">
+                <img src="../assets/img/photos-page-27.jpg" class="img-fluid">
+            </div>
+            <div class="col-sm-5">
+                <img src="../assets/img/photos-page-05.jpg" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row align-items-canter">
+            <div class="col-sm-4">
+                <img src="../assets/img/photos-page-11.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="../assets/img/photos-page-28.jpg" class="img-fluid">
+                <img src="../assets/img/photos-page-24.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="../assets/img/photos-page-12.jpg" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row align-items-canter">
+            <div class="col-lg-12">
+                <img src="../assets/img/photos-page-02.jpg" class="img-fluid">
             </div>
         </div>
 
         <div class="row align-items-canter">
             <div class="col-md-4">
-                <img src="img/3.jpg" class="img-fluid">
+                <img src="../assets/img/photos-page-14.jpg" class="img-fluid">
             </div>
             <div class="col-md-4">
-                <img src="img/4.jpg" class="img-fluid">
+                <img src="../assets/img/photos-page-06.jpg" class="img-fluid">
             </div>
             <div class="col-md-4">
-                <img src="img/5.jpg" class="img-fluid">
+                <img src="../assets/img/photos-page-21.jpg" class="img-fluid">
             </div>
         </div>
-    
+
+        <div class="row align-items-center">
+            <div class="col-sm-6">
+                <img src="../assets/img/photos-page-13.jpg" class="img-fluid">
+            </div>
+            <div class="col-sm-6">
+                <img src="../assets/img/photos-page-08.jpg" class="img-fluid">
+            </div>
+        </div>
+
         <div class="row align-items-canter">
-            <div class="col-md-3">
-                <img src="img/6.jpg" class="img-fluid">
-            </div>
-            <div class="col-md-3">
-                <img src="img/7.jpg" class="img-fluid">
-            </div>
-            <div class="col-md-3">
-                <img src="img/8.jpg" class="img-fluid">
-            </div>
-            <div class="col-md-3">
-                <img src="img/9.jpg" class="img-fluid">
+            <div class="col-lg-12">
+                <img src="../assets/img/photos-page-10.jpg" class="img-fluid">
             </div>
         </div>
-    
+
+        <div class="row align-items-canter">
+            <div class="col-sm-4">
+                <img src="../assets/img/photos-page-15.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-5">
+                <img src="../assets/img/photos-page-03.jpg" class="img-fluid">
+                <img src="../assets/img/photos-page-01.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="../assets/img/photos-page-16.jpg" class="img-fluid">
+            </div>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/img/photos-page-20.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/photos-page-21.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/photos-page-22.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/photos-page-03.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/photos-page-04.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/photos-page-09.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/photos-page-13.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/photos-page-06.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/photos-page-18.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/photos-page-25.jpg" class="d-block w-100" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
 
 
@@ -102,7 +219,10 @@ content="Layout and grid assignment">
 
 <!--Script tags-->
 <script src="https://code.jquery.com/jquery.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

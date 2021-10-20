@@ -1,3 +1,33 @@
+h1,
+h3,
+h3,
+footer{
+	font-family: 'Playfair Display', serif;
+	color: #8b6533;
+}
+
 h1{
-    color:blue
+    font-size: 70px;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 35px;
+}
+
+body{
+	font-family: 'Syne', sans-serif;
+	font-size:16px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+header{
+    font-family: 'Syne', sans-serif;
+    color: #8b6533;
+    font-weight: 600;
+}
+img{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
