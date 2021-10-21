@@ -1,5 +1,5 @@
 h1,
-h3,
+h2,
 h3,
 footer{
 	font-family: 'Playfair Display', serif;
@@ -7,7 +7,7 @@ footer{
 }
 
 h1{
-    font-size: 70px;
+    font-size: 5em;
 }
 
 .logo{
@@ -27,6 +27,8 @@ header{
     color: #8b6533;
     font-weight: 600;
 }
+
+
 img{
     padding-top: 10px;
     padding-bottom: 10px;
