@@ -1,0 +1,51 @@
+
+/* {
+    fonts:
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Roboto Mono', monospace;
+
+    colors:
+
+    green - #A8FF00 
+    gray - #8e8e8e
+
+    mediaquery breakpoints:
+
+    - 775px 
+    - 375px
+
+} */
+
+.logo{
+    width: 150px;
+    margin-left: 105px;
+}
+
+@media (max-width:600px){
+    .row{
+        margin-top:0;
+}
+
+p{
+    margin-top: 40px;
+    color: brown;
+}
+
+h1{
+font-size: 3.5em;
+font-weight: 700;
+font-family: monser;
+}
+
+.img{
+box-shadow: 10px 7px #A8FF00;
+padding: 10px;
+}
+
+.green {
+font-size: .9em;
+padding-left: 10px;
+padding-right: 10px;
+}
