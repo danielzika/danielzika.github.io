@@ -3,10 +3,12 @@
     position: relative;
     text-align: center;
     color: white;
+    text-shadow: black;
   }
   
   /* Centered text */
   .centered {
+    font-size: larger;
     font-family: Merriweather;
     position: absolute;
     top: 50%;
@@ -15,6 +17,20 @@
   }
 
   h5{
+    padding-top: 40px;
     font-family: Merriweather;
-      
+    color: black;
+    font-size: 1em;  
   }
+
+  .img{
+    box-shadow: 10px 7px #948661;
+    padding: 10px;
+    }
+
+    p{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-family: Nanum 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: black;
+    }
